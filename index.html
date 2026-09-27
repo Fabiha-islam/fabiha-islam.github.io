@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fabiha Islam | Packaging Engineer</title>
+<meta name="description" content="Fabiha Islam, packaging engineer. ASTM and ISTA testing, packaging design, material qualification, and production operations. Available January 2027.">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="Fabiha Islam | Packaging. Engineered.">
+<meta property="og:description" content="Tested to ASTM and ISTA. Designed in CAD. Proven on the production floor.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231d1d1f'/%3E%3Ctext x='16' y='21.5' font-family='Arial' font-weight='700' font-size='14' fill='%233ddc97' text-anchor='middle'%3EFI%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ink:#1d1d1f; --gray:#6e6e73; --gray2:#86868b; --line:#d2d2d7; --mist:#f5f5f7; --white:#ffffff; --black:#000000; --card-dk:#161617;
+  --green:#0a7a58; --green-lt:#3ddc97;
+  --grad:linear-gradient(92deg,#0a5c45 0%,#0f8a63 45%,#3ddc97 100%);
+  --sans:-apple-system,BlinkMacSystemFont,"SF Pro Display","Inter Tight","Helvetica Neue",Arial,sans-serif;
+  --mono:"SF Mono","JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0; background:var(--white); color:var(--ink); font-family:var(--sans); font-size:17px; line-height:1.5; -webkit-font-smoothing:antialiased; letter-spacing:-.012em}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--green); outline-offset:3px; border-radius:6px}
+h1,h2,h3{margin:0; text-wrap:balance; font-weight:700}
+p{margin:0}
+.grad{background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent}
+.in{max-width:1024px; margin:0 auto; padding-inline:22px}
+section{scroll-margin-top:52px}
+
+/* nav */
+.nav{position:sticky; top:env(safe-area-inset-top,0px); z-index:50; background:rgba(255,255,255,.74); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px); border-bottom:1px solid rgba(0,0,0,.08)}
+.nav .in{height:52px; display:flex; align-items:center; gap:28px}
+.brand{font-weight:600; font-size:17px; text-decoration:none; margin-right:auto; letter-spacing:-.02em}
+.nav nav{display:flex; gap:26px}
+.nav nav a{font-size:13px; color:#3a3a3c; text-decoration:none}
+.nav nav a:hover{color:var(--ink)}
+.pill{display:inline-flex; align-items:center; justify-content:center; gap:6px; border-radius:980px; font:500 15px var(--sans); letter-spacing:-.01em; padding:11px 22px; text-decoration:none; border:0; cursor:pointer; transition:transform .2s, background .2s}
+.pill:active{transform:scale(.97)}
+.pill.dark{background:var(--ink); color:#fff}
+.pill.dark:hover{background:#000}
+.pill.soft{background:#e8e8ed; color:var(--ink)}
+.pill.soft:hover{background:#dcdce1}
+.pill.light{background:#fff; color:#000}
+.pill.ghost-dk{background:rgba(255,255,255,.12); color:#fff}
+.pill.sm{padding:6px 14px; font-size:12px}
+.more{color:var(--green); text-decoration:none; font-size:17px; font-weight:500}
+.more:hover{text-decoration:underline}
+.more::after{content:" ›"}
+
+/* hero */
+.hero{padding-block:72px 40px; text-align:center; background:radial-gradient(60% 45% at 50% 78%, #eef7f2 0%, rgba(255,255,255,0) 70%), var(--white)}
+.eyebrow{font-size:19px; font-weight:600; color:var(--gray); letter-spacing:-.01em}
+.hero h1{font-size:clamp(56px,10.5vw,124px); letter-spacing:-.05em; line-height:.94; margin-top:10px}
+.hero .sub{font-size:clamp(19px,2.3vw,24px); color:var(--gray); max-width:34ch; margin:22px auto 0; line-height:1.35; letter-spacing:-.015em}
+.hero .sub b{color:var(--ink); font-weight:600}
+.cta{display:flex; gap:22px; justify-content:center; align-items:center; flex-wrap:wrap; margin-top:30px}
+.figure{display:grid; justify-items:center; gap:8px; margin-top:26px}
+.figctl{display:flex; gap:14px; align-items:center; justify-content:center; flex-wrap:wrap}
+.figcap{font-size:12px; color:var(--gray2); letter-spacing:0}
+
+/* sections */
+.sec{padding-block:110px}
+.sec.mist{background:var(--mist)}
+.sec.dark{background:var(--black); color:#f5f5f7}
+.head{text-align:center; display:grid; gap:14px; margin-bottom:56px}
+.head .kick{font-size:17px; font-weight:600; color:var(--green)}
+.dark .head .kick{color:var(--green-lt)}
+.head h2{font-size:clamp(40px,6vw,64px); letter-spacing:-.04em; line-height:1.02}
+.head p{font-size:clamp(19px,2vw,21px); color:var(--gray); max-width:36ch; margin:0 auto; line-height:1.4}
+.dark .head p{color:var(--gray2)}
+
+/* bento */
+.bento{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}
+.tile{background:#fff; border-radius:28px; padding:34px 30px; display:grid; gap:8px; align-content:space-between; min-height:230px}
+.tile .n{font-size:clamp(56px,7vw,80px); font-weight:700; letter-spacing:-.05em; line-height:1; font-variant-numeric:tabular-nums}
+.tile .l{font-size:19px; font-weight:600; letter-spacing:-.02em; line-height:1.25}
+.tile .s{font-size:14px; color:var(--gray)}
+.tile.big{grid-column:span 2; background:var(--black); color:#fff}
+.tile.big .n{font-size:clamp(64px,9vw,112px)}
+.tile.big .s{color:var(--gray2)}
+.tile.std{background:var(--grad); color:#fff}
+.tile.std .s{color:rgba(255,255,255,.8)}
+.stds{display:flex; flex-wrap:wrap; gap:8px}
+.stds span{border:1px solid rgba(255,255,255,.5); border-radius:980px; padding:4px 12px; font:500 13px var(--mono)}
+
+/* case cards */
+.cards{display:grid; grid-template-columns:repeat(3,1fr); gap:16px; align-items:start}
+.cards.two{grid-template-columns:repeat(2,1fr)}
+.card{border-radius:28px; background:#fff; border:1px solid rgba(0,0,0,.06)}
+.dark .card{background:var(--card-dk); border-color:rgba(255,255,255,.06)}
+.card summary{list-style:none; cursor:pointer; padding:32px 30px 28px; display:grid; gap:10px; position:relative}
+.card summary::-webkit-details-marker{display:none}
+.card .tag{font:500 12px var(--mono); letter-spacing:.04em; text-transform:uppercase; color:var(--gray)}
+.dark .card .tag{color:var(--gray2)}
+.card .big{font-size:clamp(34px,3.6vw,42px); font-weight:700; letter-spacing:-.045em; line-height:1.02; margin-top:6px}
+.card h3{font-size:19px; letter-spacing:-.02em; line-height:1.3; font-weight:600; padding-right:40px}
+.plus{position:absolute; right:22px; bottom:24px; width:32px; height:32px; border-radius:50%; background:var(--ink); color:#fff; display:grid; place-items:center; font-size:20px; line-height:1; transition:transform .3s}
+.dark .plus{background:#fff; color:#000}
+.card[open] .plus{transform:rotate(45deg)}
+.detail{padding:0 30px 30px; display:grid; gap:14px; border-top:1px solid rgba(0,0,0,.08); padding-top:20px; margin-inline:0}
+.dark .detail{border-color:rgba(255,255,255,.1)}
+.detail div{display:grid; gap:2px}
+.detail b{font-size:12px; font-family:var(--mono); text-transform:uppercase; letter-spacing:.05em; color:var(--green); font-weight:500}
+.dark .detail b{color:var(--green-lt)}
+.detail p{font-size:15px; line-height:1.45; color:var(--gray)}
+.dark .detail p{color:#a1a1a6}
+.quote{margin-top:56px; text-align:center; font-size:clamp(22px,3vw,30px); font-weight:600; letter-spacing:-.025em; line-height:1.3; max-width:30ch; margin-inline:auto}
+.quote small{display:block; font-size:14px; color:var(--gray2); font-weight:400; margin-top:12px; letter-spacing:0}
+
+/* experience */
+.tl{display:grid; background:#fff; border-radius:28px; padding:8px 34px}
+.row{display:grid; grid-template-columns:170px 1fr auto; gap:24px; padding-block:26px; border-top:1px solid #e8e8ed; align-items:baseline}
+.row:first-child{border-top:0}
+.row .d{font-size:14px; color:var(--gray); font-variant-numeric:tabular-nums}
+.row h3{font-size:21px; letter-spacing:-.025em; font-weight:600}
+.row .o{font-size:15px; color:var(--gray); margin-top:2px}
+.row .w{font-size:15px; color:var(--ink); margin-top:10px; max-width:60ch; line-height:1.45}
+.now{font:600 12px var(--sans); color:var(--green); background:#e6f4ee; border-radius:980px; padding:4px 10px; white-space:nowrap}
+
+/* skills */
+.skills{display:grid; grid-template-columns:repeat(2,1fr); gap:16px}
+.sk{background:var(--mist); border-radius:28px; padding:30px}
+.sk h3{font-size:21px; letter-spacing:-.025em; font-weight:600; margin-bottom:16px}
+.chips{display:flex; flex-wrap:wrap; gap:8px}
+.chip{background:#fff; border-radius:980px; padding:7px 14px; font-size:14px; font-weight:500}
+
+/* closing */
+.close{text-align:center; padding-block:130px; background:var(--black); color:#f5f5f7}
+.dark .grad,.tile.big .grad{background:linear-gradient(92deg,#1fbf85 0%,#3ddc97 50%,#a8f0cf 100%); -webkit-background-clip:text; background-clip:text}
+.close h2{font-size:clamp(48px,8vw,96px); letter-spacing:-.05em; line-height:.98}
+.close p{color:var(--gray2); font-size:21px; margin-top:20px}
+.close .cta{margin-top:36px}
+.mail{font:500 17px var(--mono); color:#f5f5f7; margin-top:28px; user-select:all; word-break:break-all; display:inline-block; text-decoration:none}
+footer{background:var(--mist); font-size:12px; color:var(--gray); padding-block:22px}
+footer .in{display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap}
+footer a{color:var(--gray); text-decoration:none; margin-left:18px}
+footer a:hover{text-decoration:underline}
+
+/* scroll rise (content is fully visible at rest) */
+@supports (animation-timeline: view()){
+  @media (prefers-reduced-motion: no-preference){
+    .rise{animation:rise linear both; animation-timeline:view(); animation-range:entry 0% entry 45%}
+    @keyframes rise{from{transform:translateY(48px) scale(.98)} to{transform:none}}
+  }
+}
+
+/* ===== 3D folding carton ===== */
+.stagewrap{width:459px; height:432px; max-width:100%; position:relative}
+.floor{position:absolute; left:50%; bottom:30px; width:240px; height:34px; transform:translateX(-50%); background:radial-gradient(closest-side, rgba(0,0,0,.22), rgba(0,0,0,0)); opacity:0; transition:opacity 1.4s .9s}
+.stagewrap.on .floor{opacity:1}
+.stage{width:340px; height:320px; position:absolute; left:0; top:0; perspective:1100px; touch-action:none; transform:scale(1.35); transform-origin:0 0}
+.stage.folded{cursor:grab}
+.stage.dragging{cursor:grabbing}
+.rig{position:absolute; inset:0; transform-style:preserve-3d; transform-origin:73px 160px -28px; transition:transform 1.2s cubic-bezier(.6,0,.2,1)}
+.stage.folded .rig{transform:translateX(97px) rotateX(var(--rx,-18deg)) rotateY(var(--ry,-35deg)) scale3d(1.25,1.25,1.25)}
+.stage.dragging .rig,.stage.spinning .rig{transition:none}
+.pn{position:absolute; transform-style:preserve-3d; background:#fff; border:1px solid rgba(0,0,0,.14); transition:transform 1s cubic-bezier(.6,0,.2,1), border-color .6s; box-sizing:border-box}
+.stage:not(.folded) .pn{border-color:var(--green)}
+.front{left:25px; top:85px; width:96px; height:150px}
+.glue{right:100%; top:10px; width:14px; height:130px; transform-origin:right center; clip-path:polygon(0 8%,100% 0,100% 100%,0 92%)}
+.sr,.bk,.sl{left:100%; top:-1px; height:150px; transform-origin:left center}
+.sr,.sl{width:56px} .bk{width:96px}
+.lid-t{bottom:100%; left:-1px; width:96px; height:56px; transform-origin:bottom center}
+.tuck-t{bottom:100%; left:-1px; width:96px; height:16px; transform-origin:bottom center; border-radius:8px 8px 0 0}
+.lid-b{top:100%; left:-1px; width:96px; height:56px; transform-origin:top center}
+.tuck-b{top:100%; left:-1px; width:96px; height:16px; transform-origin:top center; border-radius:0 0 8px 8px}
+.dust-t{bottom:100%; left:-1px; width:56px; height:26px; transform-origin:bottom center; clip-path:polygon(0 100%,8% 0,85% 30%,100% 100%)}
+.dust-b{top:100%; left:-1px; width:56px; height:26px; transform-origin:top center; clip-path:polygon(0 0,100% 0,85% 70%,8% 100%)}
+.stage.folded .glue{transform:rotateY(-92deg)}
+.stage.folded .sr,.stage.folded .bk,.stage.folded .sl{transform:rotateY(90deg); transition-delay:.1s}
+.stage.folded .dust-t{transform:rotateX(92deg); transition-delay:.7s}
+.stage.folded .dust-b{transform:rotateX(-92deg); transition-delay:.7s}
+.stage.folded .lid-t{transform:rotateX(90deg); transition-delay:1.1s}
+.stage.folded .lid-b{transform:rotateX(-90deg); transition-delay:1.1s}
+.stage.folded .tuck-t{transform:rotateX(94deg); transition-delay:1.5s}
+.stage.folded .tuck-b{transform:rotateX(-94deg); transition-delay:1.5s}
+.art{position:absolute; inset:0; padding:10px 8px; display:flex; flex-direction:column; justify-content:space-between; overflow:hidden; color:var(--ink); pointer-events:none; text-align:left; letter-spacing:0}
+.art .m{font-family:var(--mono); font-size:6px; letter-spacing:.1em; text-transform:uppercase; color:var(--gray)}
+.art .nm{font-family:var(--sans); font-weight:800; font-size:17px; line-height:.95; letter-spacing:-.03em}
+.art .nm span{color:var(--green)}
+.art .rl{font-size:7.5px; line-height:1.3; margin-top:5px; color:var(--gray)}
+.bar{height:18px; background:repeating-linear-gradient(90deg,var(--ink) 0 1px,transparent 1px 3px,var(--ink) 3px 5px,transparent 5px 6px,var(--ink) 6px 7px,transparent 7px 10px)}
+.up{font-weight:800; font-size:22px; color:var(--green); text-align:center; letter-spacing:-2px}
+.vt{writing-mode:vertical-rl; transform:rotate(180deg); font-weight:700; font-size:11px; letter-spacing:.16em; align-self:center}
+.art ul{margin:0; padding:0; list-style:none; font-family:var(--mono); font-size:6.5px; line-height:1.9; text-transform:uppercase; letter-spacing:.05em}
+.art ul li::before{content:"● "; color:var(--green)}
+.sym{display:flex; gap:6px; justify-content:center; font-size:12px}
+.stripe{height:6px; background:var(--grad); margin:-10px -8px 0}
+
+@media (max-width:820px){
+  .bento{grid-template-columns:1fr 1fr}
+  .tile.big{grid-column:span 2}
+  .cards{grid-template-columns:1fr}
+  .cards.two{grid-template-columns:1fr}
+  .skills{grid-template-columns:1fr}
+  .row{grid-template-columns:1fr; gap:4px}
+  .row .now{justify-self:start; margin-top:8px}
+}
+@media (max-width:640px){
+  .nav nav{display:none}
+  .sec{padding-block:80px}
+  .bento{grid-template-columns:1fr}
+  .tile.big{grid-column:auto}
+  .tl{padding:4px 22px}
+  .stagewrap{width:323px; height:304px}
+  .stage{transform:scale(.95)}
+  .floor{width:170px; bottom:22px}
+}
+@media (max-width:380px){ .stagewrap{width:289px; height:272px} .stage{transform:scale(.85)} }
+@media (prefers-reduced-motion:reduce){ .rig,.pn,.floor{transition:none!important} html{scroll-behavior:auto} }
+</style>
+</head>
+<body>
+
+<header class="nav"><div class="in">
+  <a class="brand" href="#top">Fabiha Islam</a>
+  <nav aria-label="Sections"><a href="#numbers">Impact</a><a href="#now">Now</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a></nav>
+  <a class="pill dark sm" href="resume.pdf" target="_blank" rel="noopener">Résumé</a>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="in">
+  <p class="eyebrow">Fabiha Islam · Packaging Engineer</p>
+  <h1>Packaging.<br><span class="grad">Engineered.</span></h1>
+  <p class="sub">Tested to ASTM and ISTA. Designed in CAD. Proven on the production floor. <b>Available January 2027.</b></p>
+  <div class="cta">
+    <a class="pill dark" href="mailto:islamfab@msu.edu">Contact Fabiha</a>
+    <a class="more" href="resume.pdf" target="_blank" rel="noopener">View résumé</a>
+    <a class="more" href="https://www.linkedin.com/in/REPLACE-WITH-HER-HANDLE" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+  <div class="figure">
+    <div class="stagewrap" id="wrap"><div class="floor"></div>
+    <div class="stage" id="stage" role="img" aria-label="Interactive carton: a reverse tuck end dieline that folds into a 3D box">
+     <div class="rig" id="rig">
+      <div class="pn front">
+        <div class="art"><div class="stripe"></div><span class="m">PKG-ENG · Rev. 2027</span><div><div class="nm">FABIHA<br><span>ISLAM</span></div><div class="rl">Packaging Engineer<br>Test · Design · Produce</div></div><div><div class="bar"></div><span class="m">MSU Packaging · 12/2026</span></div></div>
+        <div class="pn glue"></div>
+        <div class="pn lid-t"><div class="art" style="justify-content:center;align-items:center"><span class="m">Open here ▲</span></div><div class="pn tuck-t"></div></div>
+        <div class="pn sr">
+          <div class="art"><div class="up">↑↑</div><div class="vt">ASTM · ISTA</div><span class="m" style="text-align:center">This side up</span></div>
+          <div class="pn dust-t"></div><div class="pn dust-b"></div>
+          <div class="pn bk">
+            <div class="art"><span class="m">Contents</span><ul><li>Distribution testing</li><li>Material qualification</li><li>CAD structural design</li><li>SPC · FMEA · Lean</li><li>PPAP · BOMs · MOQs</li><li>Production ops</li></ul><span class="m">Qty 1 · Ships Jan 2027</span></div>
+            <div class="pn lid-b"><div class="pn tuck-b"></div></div>
+            <div class="pn sl">
+              <div class="art"><div class="sym" aria-hidden="true">☂ ♲ ⚠</div><div class="vt">HANDLE WITH CARE</div><span class="m" style="text-align:center">Fragile</span></div>
+              <div class="pn dust-t"></div><div class="pn dust-b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div></div>
+    <div class="figctl"><button class="pill soft sm" id="foldbtn" type="button">Fold the carton</button><span class="figcap" id="figcap">Reverse tuck end carton · flat dieline</span></div>
+  </div>
+</div></section>
+
+<section class="sec mist" id="numbers"><div class="in">
+  <div class="head"><span class="kick">Impact</span><h2>Results you can measure.</h2><p>Every project ends with a number. Here are a few.</p></div>
+  <div class="bento">
+    <div class="tile big rise"><span class="n grad">25%</span><div><p class="l">Lower material cost.</p><p class="s">Qualified alternate cushioning polymers (PE, PVC, EVA) with zero loss in protection.</p></div></div>
+    <div class="tile rise"><span class="n">98%</span><div><p class="l">Defects stopped before production.</p><p class="s">FMEA and root cause analysis on 50+ lots a week.</p></div></div>
+    <div class="tile rise"><span class="n">85%</span><div><p class="l">Less time on reporting.</p><p class="s">A weekly customer report, automated from hours to minutes.</p></div></div>
+    <div class="tile rise"><span class="n">20%</span><div><p class="l">Faster cycle time.</p><p class="s">Lean workflow changes on the line.</p></div></div>
+    <div class="tile std rise"><p class="l">Built to standard.</p><div class="stds"><span>ASTM</span><span>ISTA</span><span>PPAP</span><span>SPC</span><span>FMEA</span></div></div>
+  </div>
+</div></section>
+
+<section class="sec dark" id="now"><div class="in">
+  <div class="head"><span class="kick">Now · Quality Packaging, Inc.</span><h2>Running production. <span style="color:#86868b">Making it faster.</span></h2><p>As Production Process Manager, she takes OEM orders from PO to production: pricing, BOMs, inventory, PPAP. Then she fixes what slows the line down.</p></div>
+  <div class="cards">
+    <details class="card rise"><summary><span class="tag">Automation</span><span class="big grad">3–4 hrs → 30 min</span><h3>Automated a weekly customer report.</h3><span class="plus" aria-hidden="true">+</span></summary>
+<div class="detail"><div><b>Problem</b><p>A marine engine OEM needed a detailed weekly report that took 3 to 4 hours of manual work.</p></div><div><b>What she did</b><p>Rebuilt it as an automated workflow and trained a colleague to run and maintain it.</p></div><div><b>Result</b><p>About 85% less time every week, and a smoother experience for the customer.</p></div></div></details>
+    <details class="card rise"><summary><span class="tag">Planning</span><span class="big grad">Right orders, first.</span><h3>Fixed order prioritization on a key account.</h3><span class="plus" aria-hidden="true">+</span></summary>
+<div class="detail"><div><b>Problem</b><p>Priority errors on a power equipment OEM's orders meant the wrong jobs were being worked first.</p></div><div><b>What she did</b><p>Traced the errors in the order data and corrected how priorities were set.</p></div><div><b>Result</b><p>The line works the right jobs in sequence, improving on-time delivery and customer satisfaction.</p></div></div></details>
+    <details class="card rise"><summary><span class="tag">Tooling</span><span class="big grad">One source of truth.</span><h3>Built a quoting calculator and quote library.</h3><span class="plus" aria-hidden="true">+</span></summary>
+<div class="detail"><div><b>Problem</b><p>Quotes were calculated by hand and stored in scattered places, slowing responses.</p></div><div><b>What she did</b><p>Built a quoting calculator for a customer account and organized past quotes into one accessible system.</p></div><div><b>Result</b><p>Faster, consistent pricing that anyone on the team can find and reuse.</p></div></div></details>
+  </div>
+  <p class="quote rise">“The quickest and easiest I have seen things handled on this account.”<small>Customer contact, marine engine OEM</small></p>
+</div></section>
+
+<section class="sec" id="work"><div class="in">
+  <div class="head"><span class="kick">Engineering work</span><h2>Designed. Tested. Proven.</h2><p>From cushioning curves to CAD models, the engineering behind the package.</p></div>
+  <div class="cards two">
+    <details class="card rise"><summary><span class="tag">Materials · Sirajul Foam Industries</span><span class="big grad">−25% cost</span><h3>Qualified alternate cushioning polymers.</h3><span class="plus" aria-hidden="true">+</span></summary>
+<div class="detail"><div><b>Problem</b><p>Protective packaging material costs were high, but any substitute had to survive distribution.</p></div><div><b>What she did</b><p>Ran comparative cushioning, vibration and thermal tests on PVC, PE and EVA to ASTM and ISTA methods, working directly with suppliers.</p></div><div><b>Result</b><p>25% lower material cost with no loss in protective performance.</p></div></div></details>
+    <details class="card rise"><summary><span class="tag">Design · MSU School of Packaging</span><span class="big grad">Top 4 in class</span><h3>Glass bottle and protective system.</h3><span class="plus" aria-hidden="true">+</span></summary>
+<div class="detail"><div><b>Problem</b><p>Design a primary glass container and secondary pack that balance protection, cost and sustainability.</p></div><div><b>What she did</b><p>Modeled the container and pack in CAD, then ran distribution-style testing and a sustainability analysis.</p></div><div><b>Result</b><p>Ranked Top 4, documented in a formal technical report suited to regulated pharma packaging.</p></div></div></details>
+  </div>
+</div></section>
+
+<section class="sec mist" id="experience"><div class="in">
+  <div class="head"><span class="kick">Experience</span><h2>The path so far.</h2></div>
+  <div class="tl rise">
+    <div class="row"><span class="d">2026 – Present</span><div><h3>Production Process Manager</h3><p class="o">Quality Packaging, Inc. · St. Francis, WI</p><p class="w">Owns order flow for OEM accounts from PO receipt, pricing and MOQ checks through BOMs, pre-press approvals, inventory and PPAP, to release for production.</p></div><span class="now">Current</span></div>
+    <div class="row"><span class="d">Apr – Aug 2024</span><div><h3>Packaging Engineering Intern</h3><p class="o">Sirajul Foam Industries Ltd. · Chittagong, Bangladesh</p><p class="w">ASTM and ISTA qualification of protective packaging, specifications and test protocols, and supplier material trials.</p></div><span></span></div>
+    <div class="row"><span class="d">Apr – Aug 2023</span><div><h3>Quality Assurance Intern</h3><p class="o">Clifton Dyeing Ltd. · Chittagong, Bangladesh</p><p class="w">SPC, FMEA and root cause analysis across 50+ weekly lots, plus Lean improvements on the line.</p></div><span></span></div>
+    <div class="row"><span class="d">2021 – 2022</span><div><h3>Undergraduate Researcher</h3><p class="o">Michigan State University · East Lansing, MI</p><p class="w">Designed a survey study, analyzed 250+ responses and presented findings at UURAF.</p></div><span></span></div>
+    <div class="row"><span class="d">Dec 2026</span><div><h3>B.S. Packaging</h3><p class="o">Michigan State University, School of Packaging</p></div><span></span></div>
+  </div>
+</div></section>
+
+<section class="sec" id="skills"><div class="in">
+  <div class="head"><span class="kick">Toolkit</span><h2>Everything the package needs.</h2></div>
+  <div class="skills">
+    <div class="sk rise"><h3>Testing &amp; standards</h3><div class="chips"><span class="chip">ASTM</span><span class="chip">ISTA</span><span class="chip">Cushioning</span><span class="chip">Vibration</span><span class="chip">Thermal</span><span class="chip">PPAP</span></div></div>
+    <div class="sk rise"><h3>Design</h3><div class="chips"><span class="chip">SolidWorks</span><span class="chip">ArtiosCAD</span><span class="chip">ESKO WebCenter</span><span class="chip">Adobe Illustrator</span></div></div>
+    <div class="sk rise"><h3>Quality &amp; process</h3><div class="chips"><span class="chip">SPC</span><span class="chip">FMEA</span><span class="chip">Root cause analysis</span><span class="chip">Lean</span><span class="chip">Minitab</span></div></div>
+    <div class="sk rise"><h3>Materials &amp; data</h3><div class="chips"><span class="chip">PE · PVC · EVA</span><span class="chip">Glass</span><span class="chip">Excel (Advanced)</span><span class="chip">Power BI</span><span class="chip">Tableau</span><span class="chip">Python</span><span class="chip">MATLAB</span></div></div>
+  </div>
+</div></section>
+
+<section class="dark close" id="contact"><div class="in">
+  <h2>Ready to ship.<br><span class="grad">January 2027.</span></h2>
+  <p>Open to packaging engineering roles.</p>
+  <div class="cta">
+    <a class="pill light" href="mailto:islamfab@msu.edu">Email Fabiha</a>
+    <a class="pill ghost-dk" href="resume.pdf" target="_blank" rel="noopener">Résumé</a>
+    <a class="pill ghost-dk" href="https://www.linkedin.com/in/REPLACE-WITH-HER-HANDLE" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+  <div><span class="mail" id="email">islamfab@msu.edu</span></div>
+  <button class="pill ghost-dk sm" id="copy" type="button" style="margin-top:14px">Copy email</button>
+</div></section>
+</main>
+
+<footer><div class="in"><span>© 2026 Fabiha Islam</span><span><a href="resume.pdf" target="_blank" rel="noopener">Résumé</a><a href="https://www.linkedin.com/in/REPLACE-WITH-HER-HANDLE" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:islamfab@msu.edu">Email</a></span></div></footer>
+
+<script>
+(function(){
+  var st=document.getElementById('stage'), rig=document.getElementById('rig'), wrap=document.getElementById('wrap'), btn=document.getElementById('foldbtn'), cap=document.getElementById('figcap');
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var rx=-18, ry=-35, drag=null, spin=false;
+  function apply(){ rig.style.setProperty('--rx',rx+'deg'); rig.style.setProperty('--ry',ry+'deg'); }
+  function loop(){ if(spin && !drag){ ry-=0.16; apply(); } requestAnimationFrame(loop); }
+  function setFold(on){
+    st.classList.toggle('folded',on); wrap.classList.toggle('on',on);
+    btn.textContent=on?'Unfold to dieline':'Fold the carton';
+    cap.textContent=on?'Drag to rotate':'Reverse tuck end carton · flat dieline';
+    spin=false; st.classList.remove('spinning');
+    if(on && !reduce) setTimeout(function(){ if(st.classList.contains('folded')){ spin=true; st.classList.add('spinning'); } }, 2800);
+    if(!on){ rx=-18; ry=-35; apply(); }
+  }
+  btn.addEventListener('click',function(){ setFold(!st.classList.contains('folded')); });
+  st.addEventListener('pointerdown',function(e){ if(!st.classList.contains('folded')) return; drag={x:e.clientX,y:e.clientY,rx:rx,ry:ry}; st.classList.add('dragging'); st.setPointerCapture(e.pointerId); });
+  st.addEventListener('pointermove',function(e){ if(!drag) return; ry=drag.ry+(e.clientX-drag.x)*0.6; rx=Math.max(-70,Math.min(40,drag.rx-(e.clientY-drag.y)*0.4)); apply(); });
+  function end(){ drag=null; st.classList.remove('dragging'); }
+  st.addEventListener('pointerup',end); st.addEventListener('pointercancel',end);
+  apply(); loop();
+  if(!reduce) setTimeout(function(){ setFold(true); }, 1200);
+
+  var cb=document.getElementById('copy');
+  cb.addEventListener('click',function(){
+    var t=document.getElementById('email').textContent;
+    function ok(){ cb.textContent='Copied'; setTimeout(function(){ cb.textContent='Copy email'; },1600); }
+    function sel(){ var r=document.createRange(); r.selectNodeContents(document.getElementById('email')); var s=getSelection(); s.removeAllRanges(); s.addRange(r); cb.textContent='Press Ctrl+C'; }
+    try{ navigator.clipboard.writeText(t).then(ok,sel); }catch(e){ sel(); }
+  });
+})();
+</script>
+
+</body>
+</html>
